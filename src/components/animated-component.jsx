@@ -28,19 +28,19 @@ const AnimatedComponent = () => {
               ref={animationRef}
               style={{ width: "50px", height: "50px", backgroundColor: "red" }}
             >
-              Logo Here
+              <i>Unique Khushboo</i>
             </div>
           </li>
-          <li>
+          <li className="hover:text-red-600 drop-shadow-lg transition-all">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="hover:text-red-600 drop-shadow-lg transition-all">
             <a href="#">About</a>
           </li>
-          <li>
+          <li className="hover:text-red-600 drop-shadow-lg transition-all">
             <a href="#">Services</a>
           </li>
-          <li>
+          <li className="hover:text-red-600 drop-shadow-lg transition-all">
             <a href="#">Contact</a>
           </li>
         </ul>
