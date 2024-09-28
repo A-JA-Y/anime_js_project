@@ -23,9 +23,12 @@ export default () => {
                 modules={[Navigation, Autoplay]}
                 className='h-96 bg-slate-500 '
             >
-                <SwiperSlide className='bg-red-700 cursor-pointer'>Slide 1</SwiperSlide>
+                <SwiperSlide className='bg-red-700 cursor-pointer  '>Slide 1</SwiperSlide>
                 <SwiperSlide className='bg-yellow-700 cursor-pointer'>Slide 2</SwiperSlide>
                 <SwiperSlide className='bg-orange-700 cursor-pointer'>Slide 3</SwiperSlide>
+                <SwiperSlide className='bg-blue-700 cursor-pointer'>Slide 4</SwiperSlide>
+                <SwiperSlide className='bg-green-700 cursor-pointer'>Slide 4</SwiperSlide>
+                <SwiperSlide className='bg-red-700 cursor-pointer'>Slide 4</SwiperSlide>
                 <SwiperSlide className='bg-blue-700 cursor-pointer'>Slide 4</SwiperSlide>
                 ...
             </Swiper>
