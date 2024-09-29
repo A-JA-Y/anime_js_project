@@ -2,6 +2,7 @@ import Swiper from './components/carousel';
 import AnimatedComponent from './components/animated-component';
 import Hero from './components/hero';
 import Perfumes from './components/perfumes';
+import PerfumesComp from './components/products';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Swiper/>
     <Hero/>
     <Perfumes/>
+    <PerfumesComp/>
 
     </>
   );

@@ -35,7 +35,7 @@ const AnimatedComponent = () => {
             <a href="#">Home</a>
           </li>
           <li className="hover:text-red-600 drop-shadow-lg transition-all">
-            <a href="#">About</a>
+            <a href="#">Products</a>
           </li>
           <li className="hover:text-red-600 drop-shadow-lg transition-all">
             <a href="#">Services</a>
