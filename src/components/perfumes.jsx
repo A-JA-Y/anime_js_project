@@ -28,7 +28,7 @@ function Perfumes() {
                         <h3 className='font-medium'>{perfume}</h3>
                         <p>@Rs.{
                            
-                            Math.floor(Math.random() * 100000) + 1
+                            Math.floor(Math.random() * 10000) + 1
                             
                             }/-</p>
                         
