@@ -3,6 +3,8 @@ import AnimatedComponent from './components/animated-component';
 import Hero from './components/hero';
 import Perfumes from './components/perfumes';
 import PerfumesComp from './components/products';
+import Others from './components/others';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
     <Hero/>
     <Perfumes/>
     <PerfumesComp/>
+    <Others/>
+    <Footer/>
 
     </>
   );
