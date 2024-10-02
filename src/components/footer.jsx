@@ -15,7 +15,7 @@ function Footer() {
                     <div className="footer__contact__info flex flex-col items-center">
                         <h3 className="text-lg md:text-xl drop-shadow-lg font-normal">Phone</h3>
                         <p className="text-base md:text-lg">
-                            <a href="tel:+919999999999" className="text-red-600">+91 9999999999</a>
+                            <a href="tel:+91-9260967689" className="text-red-600">+91-9260967689</a>
                         </p>
                     </div>
                 </div>
