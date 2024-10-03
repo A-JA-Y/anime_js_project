@@ -65,34 +65,24 @@ function PerfumesComp() {
   ];
 
   return (
-    <>
-      <div className=" bg-black flex flex-col justify-center w-full items-center py-5 ">
-        <h1 className="text-center">Perfumes</h1>
-        <div className="row grid grid-cols-4 gap-3 w-full container ">
-          {perfumes.map((perfume, index) => {
-            return (
-              <div  key={index}>
-                <div className="card contain-content font-[Poppins]">
-                  <div className="overflow-hidden">
-                    <img
-                      height={300} 
-                      width={300}
-                      src={perfume.image}
-                      className="card-img-top transform transition-transform duration-500 ease-in-out hover:scale-110"
-                      alt={perfume.name}
-                    />
-                  </div>
-                  <div className="card-body text-white ">
-                    <h5 className="card-title  text-2xl font-medium">{perfume.name}</h5>
-                    <p className="card-text font-thin">{perfume.info}</p>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+    <div className="bg-black flex flex-col justify-center items-center py-5 w-full">
+      <h1 className="text-center text-white text-3xl mb-5">Perfumes</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-6xl px-4">
+        {perfumes.map((perfume, index) => (
+          <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg">
+            <img
+              src={perfume.image}
+              className="w-full h-64 object-cover transform transition-transform duration-500 ease-in-out hover:scale-110"
+              alt={perfume.name}
+            />
+            <div className="p-4">
+              <h5 className="text-xl font-semibold">{perfume.name}</h5>
+              <p className="text-gray-700">{perfume.info}</p>
+            </div>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 }
 
