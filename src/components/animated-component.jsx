@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import anime from "animejs/lib/anime.es.js";
+import { Link } from 'react-router-dom';
 
 const AnimatedComponent = () => {
   const animationRef = useRef(null);
@@ -61,16 +62,16 @@ const AnimatedComponent = () => {
           } md:flex flex-col md:flex-row gap-4 md:gap-10 text-center items-center justify-center h-full w-full font-thin text-xl md:text-2xl`}
         >
           <li className="hover:text-red-600 drop-shadow-lg transition-all">
-            <a href="#">Home</a>
+          <Link to="/">Home</Link>
           </li>
           <li className="hover:text-red-600 drop-shadow-lg transition-all">
-            <a href="#">Products</a>
+          <Link to="/products">Products</Link>
           </li>
           <li className="hover:text-red-600 drop-shadow-lg transition-all">
-            <a href="#">Services</a>
+          <Link to="/services">Services</Link>
           </li>
           <li className="hover:text-red-600 drop-shadow-lg transition-all">
-            <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
