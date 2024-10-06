@@ -10,8 +10,10 @@ function Hero() {
                     <p className="text-2xl md:text-4xl font-thin mt-4">with <i><span className="text-teal-400">Unique-Khushboo</span></i></p>
                 </div>
             </div>
-            <div className="flex-1 bg-black p-4">
-                <Spline scene="https://prod.spline.design/Mmp8qKZGS0MI-XMZ/scene.splinecode" />
+            <div className="flex-1  p-4 text-white" >
+                <Spline scene="https://prod.spline.design/Mmp8qKZGS0MI-XMZ/scene.splinecode" 
+                     />
+                     
             </div>
         </div>
     );
