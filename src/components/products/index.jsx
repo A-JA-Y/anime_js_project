@@ -98,6 +98,8 @@ function Products() {
                   <p className="text-sm mb-4">Price: ${perfume.price}</p>
                   <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
                     Buy now <a href="tel:+91-9260967689"></a>
+
+                    {/* consistency commit */}
                   </button>
                 </div>
               </div>
