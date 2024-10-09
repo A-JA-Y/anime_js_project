@@ -1,10 +1,14 @@
 import React from 'react'
 import laundry from '../laundry.png'
 import tailor from '../yessir.png'
+import AnimatedComponent from '../animated-component'
 
 function Services() {
   return (
+    <>
+    <AnimatedComponent />
     <div className="services bg-black p-5 text-white font-[Poppins] flex flex-col justify-center items-center">
+
       <h1 className='text-4xl md:text-7xl font-extrabold'>Services</h1>
       <div className="services flex flex-col md:flex-row justify-center items-center">
         <div className="service m-4 p-4 bg-gray-800 rounded-lg">
@@ -19,6 +23,7 @@ function Services() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

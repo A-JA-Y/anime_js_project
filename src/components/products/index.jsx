@@ -1,4 +1,5 @@
 import React from 'react'
+import AnimatedComponent from '../animated-component';
 
 function Products() {
   const perfumes = [
@@ -74,6 +75,7 @@ function Products() {
     ];
   return (
     <>
+    <AnimatedComponent />
       <div className="bg-[#040404] min-h-screen text-white flex flex-col md:flex-row p-4 md:p-8">
         <div className="mb-8 md:mb-0 md:mr-8">
           <h1 className='text-4xl md:text-7xl font-thin mb-4'>All Products</h1>

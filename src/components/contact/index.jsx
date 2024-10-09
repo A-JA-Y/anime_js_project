@@ -1,8 +1,10 @@
 import React from 'react'
+import AnimatedComponent from '../animated-component'
 
 function Contact() {
   return (
     <>
+    <AnimatedComponent />
       {/* build a contact us page */}
       <div className="contact bg-black p-5 text-white font-[Poppins] flex flex-col justify-center items-center">
         <h1 className='text-4xl md:text-7xl font-extrabold text-center'>Contact Us</h1>
