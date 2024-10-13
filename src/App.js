@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/products" element={<Products />} />
         <Route path="/services" element={<Services />} />
-{/* Comment */}
+{/* Consistency Comment */}
 
         <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Home />} />
