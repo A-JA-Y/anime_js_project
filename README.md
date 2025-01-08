@@ -7,7 +7,7 @@ this consistency Comment oct 21
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start or npm run start`
 ## consistency commit 26 oct
 
 Runs the app in the development mode.\
